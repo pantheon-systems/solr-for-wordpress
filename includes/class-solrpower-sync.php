@@ -41,7 +41,6 @@ class SolrPower_Sync {
 	 * Instantiate the object.
 	 */
 	function __construct() {
-		add_action( 'publish_post', array( $this, 'handle_modified' ) );
 		add_action( 'publish_page', array( $this, 'handle_modified' ) );
 		add_action( 'save_post', array( $this, 'handle_modified' ) );
 		add_action( 'delete_post', array( $this, 'handle_delete' ) );
