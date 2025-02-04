@@ -32,7 +32,7 @@
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
         "phpunit/phpunit": "^6 || ^7",
         "phpcompatibility/php-compatibility": "^9.3",
-        "yoast/phpunit-polyfills": "^2.0"
+        "yoast/phpunit-polyfills": "^3.0"
     },
     "scripts": {
         "lint": [
